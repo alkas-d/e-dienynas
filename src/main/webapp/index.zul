@@ -1,6 +1,58 @@
 <zk>
-	<window title="Hello World!!" border="normal" width="500px" 
-		apply="lt.edu.dienynas.DemoWindowComposer">
-		
-	</window>
+    <style>
+    	img.complex-layout-img {
+        	padding: 0 10px;
+        	} 
+		.z-borderlayout {
+			background-color: #F1F1F1;
+			}
+		.z-north {
+			background-color: #F1F1F1;
+			}
+		.z-west {
+			background-color: #F1F1F1;
+			}
+		.z-east {
+			background-color: #FFFFFF;
+			border: 1px solid #D7D7D7; 
+			}
+		.z-center {
+			background-color: #FFFFFF;
+			border: 1px solid #D7D7D7;
+			-webkit-border-radius: 8px;
+			-moz-border-radius: 8px;
+			border-radius: 8px; 
+			}
+
+    </style>
+    <borderlayout height="100%">
+        <north size="70px" border="0">
+        	<image sclass="complex-layout-img" src="/images/ZK-Logo.gif" />
+
+        </north>
+        <!-- Sidebar -->
+        <west width="100px" border="0" flex="true" splittable="false" margins="0,5,0,0">
+
+        </west>
+        <east width="210px" border="1" flex="true" margins="0,23,23,0">
+        	<include src="pagalba.zul"/>
+        </east>
+        <!-- Content -->
+        <center border="1" hflex="true">
+
+        </center>
+        <south size="40px" border="0" style="background: none repeat scroll 0 0 ;">
+            <toolbar mold="panel" align="center">
+                <toolbarbutton label="Sign in" />
+                <toolbarbutton label="Home" />
+                <toolbarbutton label="Sitemap" />
+                <toolbarbutton label="Terms" />
+                <toolbarbutton label="Report Abuse" />
+                <toolbarbutton label="Print" />
+                <separator orient="vertical" bar="true" />
+                Powered by ZK ${desktop.webApp.version} ZK Borderlayout
+            </toolbar>
+        </south>
+    </borderlayout>
 </zk>
+ 
