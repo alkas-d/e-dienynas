@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Specification-Title: dienynas
+Specification-Version: 0.0.1-SNAPSHOT
+Implementation-Title: lt.edu.dienynas
+Implementation-Version: 0.0.1-SNAPSHOT
