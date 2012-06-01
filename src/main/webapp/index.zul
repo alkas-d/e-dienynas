@@ -27,11 +27,17 @@
     </style>
     <borderlayout height="100%">
         <north size="70px" border="0">
-        	<image sclass="complex-layout-img" src="/images/ZK-Logo.gif" />
-
+        	
         </north>
         <!-- Sidebar -->
         <west width="100px" border="0" flex="true" splittable="false" margins="0,5,0,0">
+        	<vlayout id="pagrindinis_meniu" spacing="20px">
+        		<button label="admin"></button>
+        		<button label="kitas"></button>
+        		<button label="kitas2"></button>
+        		<button label="kitas3"></button>
+        		<button label="kitas4"></button>
+        	</vlayout>
 
         </west>
         <east width="210px" border="1" flex="true" margins="0,23,23,0">
