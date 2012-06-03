@@ -1,3 +1,6 @@
-<vlayout style="font-family: verdana;">
-Čia bus kontekstiniai pagalbos failai.
-</vlayout>
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window><![CDATA[
+<p>Kontekstinės pagalbos failas.</p>New Content Here!]]>
+</window>
+</zk>
